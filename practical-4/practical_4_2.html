@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 Features Example</title>
+    <style >
+        
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+#header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Flexbox Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Box Shadow */
+.box {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/* Text Shadow */
+.text-shadow {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.text-shadow h2, .text-shadow p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Transform */
+.transform {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+    transform: rotate(10deg) scale(1.1);
+}
+
+/* Gradient Background */   
+.gradient {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    text-align: center;
+}
+    
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Welcome to My CSS3 Features Page</h1>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h2>Box Shadow</h2>
+            <p>This box has a shadow effect.</p>
+        </div>
+        
+        <div class="text-shadow">
+            <h2>Text Shadow</h2>
+            <p>This text has a shadow effect.</p>
+        </div>
+        
+        <div class="transform">
+            <h2>Transform</h2>
+            <p>This box is rotated and scaled.</p>
+        </div>
+        
+        <div class="gradient">
+            <h2>Gradient Background</h2>
+            <p>This box has a gradient background.</p>
+        </div>
+    </div>
+</body>
+</html>
