@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics Example</title>
+    <style>
+        /* ID Selector */
+        #header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Class Selector */
+        .section {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Class Selector with different properties */
+        .important {
+            color: red;
+            font-weight: bold;
+        }
+
+        /* Universal Selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Element Selector */
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Class Selector for div */
+        .content {
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Welcome to My CSS Basics Page</h1>
+    </div>
+
+    <div class="content">
+        <h2 class="section">About Me</h2>
+        <p>My name is John Doe, and I am learning CSS. This is a sample page to demonstrate various CSS properties.</p>
+        <p class="important">This paragraph is styled differently because it has an "important" class.</p>
+    </div>
+
+    <div class="content">
+        <h2 class="section">My Hobbies</h2>
+        <ul>
+            <li>Reading</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2 class="section">Favorite Websites</h2>
+        <ol>
+            <li><a href="https://www.example.com">Example</a></li>
+            <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+            <li><a href="https://www.github.com">GitHub</a></li>
+        </ol>
+    </div>
+</body>
+</html>
+
